@@ -29,7 +29,11 @@ def user_guess
 end
 
 def game_loop
+  usr_end? = user_guess
 
+  while user_end? == false
+    user_guess
+  end
 end
 
 binding.pry
