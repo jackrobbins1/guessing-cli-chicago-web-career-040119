@@ -19,12 +19,16 @@ def user_guess
 
   if user_num == magic_number
     puts "You guessed the correct number!"
+    return false
+  elsif user_num == "exit"
+    return true
   else
     puts "The computer guessed #{magic_number}"
+    return false
   end
 end
 
-def method_name
+def game_loop
 
 end
 
