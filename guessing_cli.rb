@@ -38,5 +38,6 @@ def game_loop
 end
 
 def run_guessing_game
-  
+  greetUsr
+  game_loop
 end
