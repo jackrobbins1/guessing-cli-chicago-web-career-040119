@@ -20,7 +20,6 @@ def user_guess
     puts "You guessed the correct number!"
   else
     puts "The computer guessed #{magic_number}"
-
   end
 end
 
