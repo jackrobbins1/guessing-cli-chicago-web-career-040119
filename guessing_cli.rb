@@ -11,6 +11,9 @@ def gen_randomz
   rand(1..10).to_s
 end
 
-
+#get user input and compare with random number
+def user_guess
+  magic_number = gen_randomz
+end
 
 binding.pry
