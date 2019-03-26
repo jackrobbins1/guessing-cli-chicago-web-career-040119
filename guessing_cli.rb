@@ -8,7 +8,7 @@ end
 
 #Generate a random number
 def gen_randomz
-  rand(1..10).to_s
+  rand(1..10).to_str
 end
 
 
