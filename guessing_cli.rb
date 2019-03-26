@@ -15,6 +15,13 @@ end
 def user_guess
   magic_number = gen_randomz
   user_num = gets.chomp
+
+  if user_num == magic_number
+    puts "You guessed the correct number!"
+  else
+    puts "The computer guessed #{magic_number}"
+    
+  end
 end
 
 binding.pry
