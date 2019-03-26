@@ -6,4 +6,7 @@ def greetUsr
 Please enter a number between 1-10"
 end
 
-binding.pry
+#Generate a random number
+def gen_randomz
+  
+end
