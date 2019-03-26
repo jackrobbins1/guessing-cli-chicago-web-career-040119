@@ -10,3 +10,7 @@ end
 def gen_randomz
   rand(1..10)
 end
+
+
+
+binding.pry
