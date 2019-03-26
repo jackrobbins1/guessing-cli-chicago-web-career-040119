@@ -23,7 +23,7 @@ def user_guess
   elsif user_num == "exit"
     return true
   else
-    puts "The computer guessed #{magic_number}"
+    puts "The computer guessed #{magic_number}."
     return false
   end
 end
