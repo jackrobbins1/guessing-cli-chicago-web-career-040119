@@ -3,7 +3,7 @@ require "pry"
 # Greet user and tell them to type in a number between 1 to 10
 def greetUsr
   puts "Welcome to Guessing Game!
-Please enter a number between 1-10.
+Guess a number between 1 and 6.
 enter 'exit' if you wish to stop playing"
 end
 
