@@ -32,7 +32,7 @@ def game_loop
   usr_end = false
 
   while user_end == false
-    user_end? = user_guess
+    user_end = user_guess
   end
 end
 
