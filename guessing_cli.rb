@@ -37,4 +37,6 @@ def game_loop
   puts "You have exited"
 end
 
-binding.pry
+def run_guessing_game
+  
+end
