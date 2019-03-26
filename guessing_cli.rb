@@ -29,9 +29,9 @@ def user_guess
 end
 
 def game_loop
-  usr_end? = false
+  usr_end = false
 
-  while user_end? == false
+  while user_end == false
     user_end? = user_guess
   end
 end
