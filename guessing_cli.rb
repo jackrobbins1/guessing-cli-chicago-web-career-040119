@@ -9,7 +9,7 @@ end
 
 #Generate a random number and convert to string for easy compare
 def gen_randomz
-  rand(1..10).to_s
+  rand(1..6).to_s
 end
 
 #get user input and compare with random number
