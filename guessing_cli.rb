@@ -14,7 +14,7 @@ end
 #get user input and compare with random number
 def user_guess
   magic_number = gen_randomz
-  magic_number
+  user_num = gets.chomp
 end
 
 binding.pry
