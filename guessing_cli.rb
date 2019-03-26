@@ -3,7 +3,8 @@ require "pry"
 # Greet user and tell them to type in a number between 1 to 10
 def greetUsr
   puts "Welcome to Guessing Game!
-Please enter a number between 1-10"
+Please enter a number between 1-10
+type 'exit' if you wish to stop playing"
 end
 
 #Generate a random number and convert to string for easy compare
@@ -21,6 +22,10 @@ def user_guess
   else
     puts "The computer guessed #{magic_number}"
   end
+end
+
+def method_name
+  
 end
 
 binding.pry
