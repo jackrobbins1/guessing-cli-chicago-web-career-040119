@@ -41,3 +41,5 @@ def run_guessing_game
   greetUsr
   game_loop
 end
+
+binding.pry
