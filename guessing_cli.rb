@@ -34,7 +34,7 @@ def game_loop
   while user_end == false
     user_end = user_guess
   end
-  puts "You have exited"
+  puts "Goodbye!"
 end
 
 def run_guessing_game
