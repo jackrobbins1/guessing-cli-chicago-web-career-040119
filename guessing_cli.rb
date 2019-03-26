@@ -8,5 +8,5 @@ end
 
 #Generate a random number
 def gen_randomz
-  
+
 end
