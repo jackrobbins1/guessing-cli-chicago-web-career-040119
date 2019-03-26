@@ -6,7 +6,7 @@ def greetUsr
 Please enter a number between 1-10"
 end
 
-#Generate a random number
+#Generate a random number and convert to string for easy compare
 def gen_randomz
   rand(1..10).to_s
 end
