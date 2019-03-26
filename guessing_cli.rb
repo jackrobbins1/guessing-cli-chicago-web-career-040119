@@ -4,7 +4,7 @@ require "pry"
 def greetUsr
   puts "Welcome to Guessing Game!
 Please enter a number between 1-10
-type 'exit' if you wish to stop playing"
+enter 'exit' if you wish to stop playing"
 end
 
 #Generate a random number and convert to string for easy compare
